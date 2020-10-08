@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/marginSmall"
+    app:cardCornerRadius="7dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+
+    >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cardView_constraintLayout"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/noteImageViewDelete"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="5dp"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/cardView_constraintLayout"
+                app:srcCompat="@drawable/ic_baseline_delete_24">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/noteImageViewEdit"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                app:srcCompat="@drawable/ic_baseline_edit_24"
+                app:layout_constraintStart_toEndOf="@+id/noteImageViewDelete"
+                app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+            <TextView
+                android:id="@+id/noteItemTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/defaultMargin"
+                android:text="Virsraksts"
+                android:textSize="@dimen/TitleTextSize"
+                style="@style/AppTextTitle"
+                app:layout_constraintBottom_toBottomOf="@+id/noteImageViewDelete"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/noteItemText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="asdfadsfa dsf asdf ads fasd asd asd asd asd aasd asd asd asd asd "
+            android:layout_marginStart="@dimen/defaultMargin"
+                android:layout_marginEnd="@dimen/defaultMargin"
+                style="@style/AppTextBody"
+                android:background="@android:color/transparent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/noteImageViewDelete"
+                android:paddingBottom="@dimen/marginSmall"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

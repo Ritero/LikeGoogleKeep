@@ -1,0 +1,48 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="buttonStyle">@style/defaultButtonStyle</item>
+    </style>
+
+    <style name="CustomAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/customColorPrimary</item>
+        <item name="colorPrimaryDark">@color/customColorPrimaryDark</item>
+        <item name="colorAccent">@color/customColorAccent</item>
+        <item name="buttonStyle">@style/customButtonStyle</item>
+
+    </style>
+
+
+
+    <style name="AppTextBody" parent="TextAppearance.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="AppTextTitle" parent="TextAppearance.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+    <style name="customButtonStyle" parent="FirebaseUI.Button">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@color/customColorPrimaryDark</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+    <style name="defaultButtonStyle" parent="FirebaseUI.Button">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+</resources>

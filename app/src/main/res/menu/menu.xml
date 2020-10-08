@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/defaultTheme"
+    android:title="DefaultTheme"
+    android:icon="@drawable/ic_baseline_format_color_reset_24"
+app:showAsAction="always"
+    ></item>
+    <item
+        android:id="@+id/customTheme"
+        android:title="DefaultTheme"
+        android:icon="@drawable/ic_baseline_invert_colors_24"
+        app:showAsAction="always"
+        ></item>
+</menu>

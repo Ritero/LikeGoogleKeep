@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1074486995467",
+    "firebase_url": "https://likekeep-76d1a.firebaseio.com",
+    "project_id": "likekeep-76d1a",
+    "storage_bucket": "likekeep-76d1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074486995467:android:00429f1b9f960f53fdb50e",
+        "android_client_info": {
+          "package_name": "com.example.likegooglekeep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074486995467-lfkcjsbdmsmg8icl5u6h8kndrjn1mic1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.likegooglekeep",
+            "certificate_hash": "ab6c59be0ddf4ae57c9d9ede67a6952eb02ca733"
+          }
+        },
+        {
+          "client_id": "1074486995467-6can4vtstq32qv13pk54meoil2k8sn6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9HMJ9GjNkUmCtFjVQKGY5U3ecjf5_ZH0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074486995467-6can4vtstq32qv13pk54meoil2k8sn6n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "967543885308",
+    "firebase_url": "https://likenote-7519e.firebaseio.com",
+    "project_id": "likenote-7519e",
+    "storage_bucket": "likenote-7519e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967543885308:android:144b8d9e5112416e483679",
+        "android_client_info": {
+          "package_name": "com.example.likegooglekeep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "967543885308-6t8h14nm63fpe1j8evadh3665vc84ff4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAwPdwBh5yEiO28jRBj5RqMRX564nzjJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "967543885308-6t8h14nm63fpe1j8evadh3665vc84ff4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LikeGoogleKeep</string>
+    <string name="Main_buttonAdd">Pievienot piezīmi</string>
+    <string name="NoteEdit_buttonCancel">Atcelt</string>
+    <string name="NoteEdit_buttonEdit">Labot piezīmi</string>
+    <string name="Main_resourceDeleted">Piezīme dzēsta</string>
+    <string name="Main_NoteSaved">Piezīme saglabāta</string>
+
+    <string name="toast_aizpildietLaukus">Aizpildiet visus laukus!</string>
+    <string name="defaultTheme">Pamata </string>
+    <string name="customtTheme">Custom </string>
+    <string name="themeText">Restartējot ierīci jūsu izvēlētā krāsu tēma būs </string>
+
+    <string name="NoteEdit_enterTitle">Piezīmes virsraksts:</string>
+    <string name="NoteEdit_enterBody">Piezīme:</string>
+
+</resources>
